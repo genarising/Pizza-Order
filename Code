@@ -1,12 +1,12 @@
-print("Welcome to Python Pizza Deliveries!")
+print("Welcome to Python Pizza Deliveries!\n")
 
 bill = 0
 
-size = input("What size pizza would you like? S, M, or L")
+size = input("What size pizza would you like? S, M, or L\n")
 
-add_pepperoni = input("Would you like pepperoni? Y or N")
+add_pepperoni = input("Would you like pepperoni? Y or N\n")
 
-extra_cheese = input("Would you like extra cheese? Y or N")
+extra_cheese = input("Would you like extra cheese? Y or N\n")
 
 if size == "S":
   bill += 15
